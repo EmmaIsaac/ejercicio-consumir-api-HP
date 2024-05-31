@@ -1,5 +1,5 @@
 const $main = document.querySelector("main");
-const url = "https://hp-api.onrender.com/api/characters";
+const url = "https://potterhead-api.vercel.app/api/characters";
 
 fetch(url)
 .then((respuesta) => {
