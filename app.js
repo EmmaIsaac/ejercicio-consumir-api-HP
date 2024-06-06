@@ -1,10 +1,12 @@
 const $main = document.querySelector("main");
-const url = "https://potterhead-api.vercel.app/api/characters";
+// const url = "https://potterhead-api.vercel.app/api/characters";
+const url = "https://hp-api.onrender.com/api/characters";
 
 fetch(url)
 .then((respuesta) => {
     return respuesta.json();
 })
+
 .then((data) => {
     const personajes = data;
     console.log(personajes);
